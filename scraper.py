@@ -55,5 +55,5 @@ seen_titles = set()
 
 while True:
     scrape_bbc_transfers()
-    print("Waiting for 30 seconds before refreshing...")
+    print("Waiting for 30 seconds before refreshing..")
     time.sleep(30)  # Wait for 30 seconds before refreshing
